@@ -11,14 +11,22 @@ export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: "#D0D0D0", dark: "#353636" }}
-      headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}
+      headerImage={<Ionicons size={310} name="images-outline" style={styles.headerImage} />}
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Fotos e Vídeos</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
-      <Collapsible title="File-based routing">
-        <ThemedText>This app includes example code to help you get started.</ThemedText>
+
+      <Collapsible title="Universidade Federal do Piauí">
+        <ThemedText>Imagens</ThemedText>
+      </Collapsible>
+
+      <Collapsible title="Museu do Piauí">
+        <ThemedText>Imagens</ThemedText>
+      </Collapsible>
+
+      <Collapsible title="Fotos do Piauí">
+        <ThemedText>Imagens</ThemedText>
       </Collapsible>
     </ParallaxScrollView>
   );

@@ -19,28 +19,19 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Sobre</ThemedText>
-        <ThemedText>
+        <ThemedText style={styles.justifiedText}>
           O <ThemedText type="defaultSemiBold">Museu de História do Piauí - MHP</ThemedText> é um espaço virtual de
           pesquisa histórica e historiográfica.
         </ThemedText>
-        <ThemedText>
+        <ThemedText style={styles.justifiedText}>
           Criado no ano de 2022, diretamente vinculado ao{" "}
           <ThemedText type="defaultSemiBold">Departamento de História - DH</ThemedText> e ao{" "}
           <ThemedText type="defaultSemiBold">Programa de Pós-Graduação em História do Brasil</ThemedText>, do Centro de
           Ciências Humanas e Letras - CCHL, da Universidade Federal do Piauí - UFPI.
         </ThemedText>
-        <ThemedText>
+        <ThemedText style={styles.justifiedText}>
           Tem-se como principais objetivos digitalizar, armazenar e disponibilizar diferentes arquivos como imagens,
           documentos e vídeos da história do Piauí.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{" "}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{" "}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{" "}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -65,5 +56,8 @@ const styles = StyleSheet.create({
     width: 200,
     borderRadius: 100,
     alignSelf: "center",
+  },
+  justifiedText: {
+    textAlign: "justify",
   },
 });
