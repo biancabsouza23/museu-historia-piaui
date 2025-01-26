@@ -12,8 +12,16 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 2. Start the app
 
+   a. Start the app normally
+
    ```bash
     npx expo start
+   ```
+
+   b. Start the app (alternative for Samsung devices, when there is infinite loading)
+
+   ```bash
+   npx expo start --tunnel
    ```
 
 In the output, you'll find options to open the app in a
