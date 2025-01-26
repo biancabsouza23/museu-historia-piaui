@@ -1,11 +1,12 @@
 import Ionicons from "@expo/vector-icons/Ionicons";
-import { StyleSheet, Image, Platform } from "react-native";
+import { StyleSheet, Image } from "react-native";
 
 import { Collapsible } from "@/components/Collapsible";
-import { ExternalLink } from "@/components/ExternalLink";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
+
+import PhotosInfo from "@/assets/content/photos.json";
 
 export default function TabTwoScreen() {
   return (
@@ -17,18 +18,21 @@ export default function TabTwoScreen() {
         <ThemedText type="title">Fotos e Vídeos</ThemedText>
       </ThemedView>
 
-      <Collapsible title="Universidade Federal do Piauí">
-        <ThemedText>Imagens</ThemedText>
-      </Collapsible>
-
-      <Collapsible title="Museu do Piauí">
-        <ThemedText>Imagens</ThemedText>
-      </Collapsible>
-
-      <Collapsible title="Fotos do Piauí">
-        <ThemedText>Imagens</ThemedText>
-      </Collapsible>
-    </ParallaxScrollView>
+      {
+        PhotosInfo.map((photoInfo, index) => (
+          <Collapsible key={index} title={photoInfo.name}>
+            {
+              photoInfo.content.map((photo, index2) => (
+                <ThemedView key={index2}>
+                  <Image src={photo.url} style={{ width: "100%", minHeight: 200, maxHeight: 300 }} />
+                  <ThemedText>{photo.title}</ThemedText>
+                </ThemedView>
+              ))
+            }
+          </Collapsible>
+        ))
+      }
+    </ParallaxScrollView >
   );
 }
 
@@ -42,5 +46,5 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: "row",
     gap: 8,
-  },
+  }
 });
