@@ -4,23 +4,28 @@
         "url": "https://museudehistoriadopiaui.ufpi.edu.br/acervo/livros/livros-sobre-ditadura-militar-no-piau\u00ed",
         "content": [
             {
-                "title": "1968 de Ant\u00f4nio Jos\u00e9 de Medeiros",
+                "title": "1968",
+                "author": "Ant\u00f4nio Jos\u00e9 de Medeiros",
                 "drive_url": "https://drive.google.com/uc?id=1Thajn-BOu1SgM7UtCE72WOSpcJ66Ztgv&export=download"
             },
             {
-                "title": "Movimentos sociais e participa\u00e7\u00e3o pol\u00edtica de Ant\u00f4nio Jos\u00e9 de Medeiros",
+                "title": "Movimentos sociais e participa\u00e7\u00e3o pol\u00edtica",
+                "author":"Ant\u00f4nio Jos\u00e9 de Medeiros",
                 "drive_url": "https://drive.google.com/uc?id=17nCfeqrezf1LQEg0-raa1PLLEBwbujtK&export=download"
             },
             {
-                "title": "1964: o DNA da conspira\u00e7\u00e3o de J\u00f4natas de Barros Nunes e Gast\u00e3o R\u00fabio de S\u00e1 Weyne",
+                "title": "1964: o DNA da conspira\u00e7\u00e3o",
+                "author": "J\u00f4natas de Barros Nunes e Gast\u00e3o R\u00fabio de S\u00e1 Weyne",
                 "drive_url": "https://drive.google.com/uc?id=122z_y-uEPIMIdoY7U5UmeY27EibdifgD&export=download"
             },
             {
-                "title": "Tempos de Contar de Jesualdo Cavalcanti Barros",
+                "title": "Tempos de Contar",
+                "author": "Jesualdo Cavalcanti Barros",
                 "drive_url": "https://drive.google.com/uc?id=12dzL_2rCdbkYSKrBwiWIhaPlWCX-YQ2F&export=download"
             },
             {
-                "title": "Marcas da Ditadura no Piau\u00ed de Deocl\u00e9cio Dantas",
+                "title": "Marcas da Ditadura no Piau\u00ed",
+                "author": "Deocl\u00e9cio Dantas",
                 "drive_url": "https://drive.google.com/uc?id=1yJ-pB0LFvaXifqKU1rpi5dF7ipX9_Xo9&export=download"
             },
             {
@@ -86,11 +91,6 @@
                 "drive_url": "https://drive.google.com/uc?id=16hjQcg16yITM3jxo2aiQg6ZRMbw-jjQp&export=download"
             }
         ]
-    },
-    {
-        "name": " Livros sobre o Piau\u00ed\u00a0",
-        "url": "https://museudehistoriadopiaui.ufpi.edu.br/acervo/livros/livros-sobre-o-piau\u00ed",
-        "content": []
     },
     {
         "name": "Livros jur\u00eddicos sobre o Piau\u00ed\u00a0",
