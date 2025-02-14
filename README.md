@@ -1,58 +1,54 @@
-# Welcome to your Expo app 👋
+# Universidade Federal do Piauí
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+O código em questão faz parte da iniciativa da UFPI em trazer, de maneira acessível, o conhecimento histórico presente em suas bibliotecas ao público geral.
 
-## Get started
+- 🔗 A versão web está disponível no link: [Museu de História da UFPI](https://museudehistoriadopiaui.ufpi.edu.br/).
+- 🚧 A versão mobile **Museu de História da UFPI** ainda será publicada (mas você pode rodar localmente seguindo as instruções abaixo.)
 
-1. Install dependencies
+
+O projeto foi financiado pela CAPES e coordenado pelo professor *Francisco de Assis de Sousa Nascimento*, do Departamento de História da UFPI.
+
+## Autoria
+
+- 🔗 Link para [Bianca Bastos de Souza (CNPq / Lattes)](http://lattes.cnpq.br/5795150769698867)
+
+## Utilização
+
+1. Instalar as dependências
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Iniciar a aplicação
 
-   a. Start the app normally
+   a. Iniciar com Expo, normalmente
 
    ```bash
     npx expo start
    ```
 
-   b. Start the app (alternative for Samsung devices, when there is infinite loading)
+   b. Iniciar com Expo + Tunnel (alternativa para dispositivos Samsung, que travam durante o carregamento inicial)
 
    ```bash
    npx expo start --tunnel
    ```
 
-In the output, you'll find options to open the app in a
+## Adicionais sobre o Expo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
+📚 Para aprender mais sobre o Expo, você pode olhar:
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+📚 Documentação de saída do Expo:
 
-Join our community of developers creating universal apps.
+- [Build de Desenvolvimento](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Emulador de Android](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [Simulador iOS](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), sandbox experimental
+
+📚 Comunidade Expo:
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
