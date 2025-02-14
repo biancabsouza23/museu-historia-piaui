@@ -35,10 +35,12 @@ export default function TabTwoScreen() {
                   key={index2}
                   title={item.title}
                   url={item.drive_url}
+                  author=""
                 />
               ))}
             </Collapsible>
           );
+        })
       }
     </ParallaxScrollView>
   );

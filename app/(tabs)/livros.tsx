@@ -9,6 +9,7 @@ import { ThemedView } from "@/components/ThemedView";
 import { BookItem } from "@/components/library/BookItem";
 
 import BooksInfo from "@/assets/content/livros.json";
+import { ReadableThemedText } from "@/components/ReadableThemedText";
 
 export default function TabTwoScreen() {
   return (
@@ -19,7 +20,7 @@ export default function TabTwoScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Livros</ThemedText>
       </ThemedView>
-      <ThemedText>Segue abaixo uma lista de livros disponíveis:</ThemedText>
+      <ReadableThemedText>Segue abaixo uma lista de livros disponíveis:</ReadableThemedText>
       {
         BooksInfo.map((category, index) => {
           return (

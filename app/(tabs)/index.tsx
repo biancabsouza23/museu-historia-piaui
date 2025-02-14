@@ -4,6 +4,8 @@ import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
+import { ReadableThemedText } from "@/components/ReadableThemedText";
+import { ReadableThemedView } from "@/components/ReadableThemedView";
 
 export default function HomeScreen() {
   return (
@@ -17,7 +19,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <Image source={require("@/assets/images/mhp-logo.jpeg")} style={styles.mhpLogo} />
       </ThemedView>
-      <ThemedView style={styles.stepContainer}>
+      <ReadableThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Sobre</ThemedText>
         <ThemedText style={styles.justifiedText}>
           O <ThemedText type="defaultSemiBold">Museu de História do Piauí - MHP</ThemedText> é um espaço virtual de
@@ -33,7 +35,7 @@ export default function HomeScreen() {
           Tem-se como principais objetivos digitalizar, armazenar e disponibilizar diferentes arquivos como imagens,
           documentos e vídeos da história do Piauí.
         </ThemedText>
-      </ThemedView>
+      </ReadableThemedView>
     </ParallaxScrollView>
   );
 }
