@@ -1,6 +1,6 @@
-# Universidade Federal do Piauí
+# Museu de História do Piauí
 
-O código em questão faz parte da iniciativa da UFPI em trazer, de maneira acessível, o conhecimento histórico presente em suas bibliotecas ao público geral.
+O projeto em questão faz parte da iniciativa da [UFPI](https://ufpi.br) em trazer, de maneira acessível, o conhecimento histórico presente em suas bibliotecas ao público geral.
 
 - 🔗 A versão web está disponível no link: [Museu de História da UFPI](https://museudehistoriadopiaui.ufpi.edu.br/).
 - 🚧 A versão mobile **Museu de História da UFPI** ainda será publicada (mas você pode rodar localmente seguindo as instruções abaixo.)
@@ -22,13 +22,13 @@ O projeto foi financiado pela CAPES e coordenado pelo professor *Francisco de As
 
 2. Iniciar a aplicação
 
-   a. Iniciar com Expo, normalmente
+   a. Iniciar com **Expo**, normalmente
 
    ```bash
     npx expo start
    ```
 
-   b. Iniciar com Expo + Tunnel (alternativa para dispositivos Samsung, que travam durante o carregamento inicial)
+   b. Iniciar com **Expo + Tunnel** (alternativa para dispositivos Samsung, que travam durante o carregamento inicial)
 
    ```bash
    npx expo start --tunnel
